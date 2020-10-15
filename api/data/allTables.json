@@ -1,0 +1,116 @@
+{
+  "tables": [
+    {
+      "name": "Nahargarh Fort",
+      "capacity": 250,
+      "isAvailable": true,
+      "location": "Nahargarh Fort",
+      "seat":120
+    },
+    {
+      "name": "Hawa Mahal",
+      "capacity": 100,
+      "isAvailable": true,
+      "location": "Hawa Mahal",
+      "seat":100
+    },
+    {
+      "name": "Jantar Mantar",
+      "capacity": 60,
+      "isAvailable": true,
+      "location": "Jantar Mantar",
+      "seat":60
+    },
+    {
+      "name": "Amer Fort",
+      "capacity": 300,
+      "isAvailable": true,
+      "location": "Amer Fort",
+      "seat":300
+    },
+    {
+      "name": "Jal Mahal",
+      "capacity": 70,
+      "isAvailable": true,
+      "location": "Jal Mahal",
+      "seat":70
+    },
+    {
+      "name": "Jaigarh Fort",
+      "capacity": 280,
+      "isAvailable": true,
+      "location": "Jaigarh Fort",
+      "seat":200
+    },
+    {
+      "name": "Bhangarh Fort",
+      "capacity": 300,
+      "isAvailable": true,
+      "location": "Bhangarh Fort",
+      "seat":300
+    },
+    {
+      "name": "Achrol Fort",
+      "capacity": 95,
+      "isAvailable": true,
+      "location": "Achrol Fort",
+      "seat":95
+    },
+    {
+      "name": "City Palace",
+      "capacity": 65,
+      "isAvailable": true,
+      "location": "City Palace",
+      "seat":65
+    },
+    {
+      "name": "Rambagh Palace",
+      "capacity": 150,
+      "isAvailable": true,
+      "location": "Rambagh Palace",
+      "seat":150
+    },
+    {
+      "name": "Birla Mandir",
+      "capacity": 150,
+      "isAvailable": true,
+      "location": "Birla Mandir",
+      "seat":150
+    },
+    {
+      "name": "Galtaji Temple",
+      "capacity": 180,
+      "isAvailable": true,
+      "location": "Galtaji Temple",
+      "seat":180
+    },
+    {
+      "name": "Govindji Temple",
+      "capacity": 190,
+      "isAvailable": true,
+      "location": "Govindji Temple",
+      "seat":190
+    },
+    {
+      "name": "Bhuteshwar Nath Mahadev",
+      "capacity": 90,
+      "isAvailable": true,
+      "location": "Bhuteshwar Nath Mahadev",
+      "seat":90
+    },
+    {
+      "name": "Sisodia Rani Garden",
+      "capacity": 120,
+      "isAvailable": true,
+      "location": "Sisodia Rani Garden",
+      "seat":120
+    },
+    {
+      "name": "Raj Mandir Cinema",
+      "capacity": 350,
+      "isAvailable": true,
+      "location": "Raj Mandir Cinema",
+      "seat":350
+    }
+  ]
+}
