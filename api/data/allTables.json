@@ -5,7 +5,7 @@
       "capacity": 250,
       "isAvailable": true,
       "location": "Nahargarh Fort",
-      "seat":120
+      "seat":250
     },
     {
       "name": "Hawa Mahal",
@@ -40,7 +40,7 @@
       "capacity": 280,
       "isAvailable": true,
       "location": "Jaigarh Fort",
-      "seat":200
+      "seat":280
     },
     {
       "name": "Bhangarh Fort",

@@ -1,33 +1,13 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-
+import { Progress } from 'reactstrap';
+{/* <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> */}
 export default props => {
-  const getRow1 = _ => {
-    let chairs = [];
-   // <p> {props.seat} </p>
-    // for (var i = 0; i < Math.ceil(props.chairs / 2); i++) {
-    //   chairs.push(
-    //     <span
-    //       key={i}
-    //       className={props.empty ? "empty-table" : "full-table"}
-    //     ></span>
-    //   );
-    // }
-    return chairs;
-  };
-  const getRow2 = _ => {
-    let chairs2 = [];
-    // for (var i = 0; i < Math.floor(props.chairs / 2); i++) {
-    //   chairs2.push(
-    //     <span
-    //       key={i}
-    //       className={props.empty ? "empty-table" : "full-table"}
-    //     ></span>
-    //   );
-    //}
-    return chairs2;
-  };
-
+  var x=Math.ceil((props.capacity-props.chairs)*100/props.capacity);
   return (
     <div className="table-container">
       <Col
@@ -38,15 +18,20 @@ export default props => {
             : console.log("Tried to select a full table");
         }}
       >
-        <Row noGutters className="table-row">
+        <div>
+      <div class="text-center"> {props.capacity-props.chairs} of {props.capacity}</div>
+      <Progress striped color="success" value={x} max={props.capacity} ></Progress>
+        </div>
+        {/* <Row noGutters className="table-row">
           <Col className="text-center">{props.chairs}</Col>
         </Row>
         <Row noGutters className="table-row">
           <Col className="text-center">{props.capacity}</Col>
-        </Row>
+        </Row> */}
 
         <p className="text-center table-name">{props.name}</p>
       </Col>
     </div>
   );
 };
+

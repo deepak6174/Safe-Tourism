@@ -370,12 +370,12 @@ export default props => {
               {selection.date && selection.time ? (
                 getEmptyTables() > 0 ? (
                   <div>
-                    <div className="table-key">
+                    {/* <div className="table-key">
                       <span className="empty-table"></span> &nbsp; Available
                       &nbsp;&nbsp;
                       <span className="full-table"></span> &nbsp; Unavailable
                       &nbsp;&nbsp;
-                    </div>
+                    </div> */}
                     <Row noGutters>{getTables()}</Row>
                   </div>
                 ) : (
