@@ -9,7 +9,7 @@ import {
   Input,
   Button
 } from "reactstrap";
-
+import pic1 from "../images/t.jpg";
 import Table from "./table";
 
 export default props => {

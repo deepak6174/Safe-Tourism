@@ -5,6 +5,7 @@ body {
 .nav-brand {
   cursor: pointer;
   font-size: 1.5rem;
+  color:black;
 }
 
 @media (min-width: 768px) {
@@ -20,7 +21,7 @@ body {
 .pizza-slice {
   font-size: 1.2rem;
   padding-left: 1.25%;
-  color: #e74c3c;
+  color:black;
 }
 
 .pizza-cta {
@@ -39,12 +40,12 @@ body {
   font-size: 1.2rem;
   padding: 2% 8%;
   border-radius: 25px;
-  background-color: #e74c3c;
+  background-color: #9c7f7c;
   border: 2px white solid;
   font-family: ABeeZee, sans-serif;
 }
 .book-table-btn:hover {
-  color: #e74c3c;
+  color:black;
   background-color: white !important;
   border: 2px solid black !important;
 }
@@ -88,7 +89,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .booking-dropdown {
   width: 85%;
   padding: 4% 0;
-  background-color: #e74c3c;
+  background-color:#343a40;
   color: white;
   margin: 2% 0;
   font-family: "Roboto";
@@ -98,7 +99,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 .booking-dropdown:hover {
-  background-color: #e74c3c;
+  background-color: grey;
   color: white;
 }
 .booking-dropdown:focus {
@@ -113,7 +114,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .booking-dropdown-item:active {
   background-color: white;
-  color: black;
+  color: grey;
 }
 
 @media (min-width: 768px) {
@@ -129,7 +130,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .tables-display {
-  background-color: #e74c3c;
+  background-color: #343a40;
   margin: 10% 2%;
   padding: 3% 5%;
   border-radius: 25px;
@@ -183,7 +184,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .empty-table {
-  background-color: #e74c3c;
+  background-color:black;
   border: solid 2px white;
   border-radius: 50%;
   padding: 1px 10px;
@@ -213,7 +214,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   }
 }
 .reservation-input:focus {
-  border-color: black;
+  border-color: grey;
   box-shadow: 0 0;
 }
 
@@ -236,7 +237,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .thank-you-pizza {
   font-size: 4rem;
-  color: #e74c3c;
+  color:black;
   padding-bottom: 8%;
 }
 
