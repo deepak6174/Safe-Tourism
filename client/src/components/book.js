@@ -244,6 +244,7 @@ export default props => {
               key={table._id}
               id={table._id}
               chairs={table.seat}
+              capacity={table.capacity}
               name={table.name}
               empty
               selectTable={selectTable}
@@ -255,6 +256,7 @@ export default props => {
               key={table._id}
               id={table._id}
               chairs={table.seat}
+              capacity={table.capacity}
               name={table.name}
               selectTable={selectTable}
             />
@@ -350,7 +352,7 @@ export default props => {
               <UncontrolledDropdown>
                 <DropdownToggle color="none" caret className="booking-dropdown">
                   {selection.size === 0
-                    ? "Select a Party Size"
+                    ? "Select the Number of people"
                     : selection.size.toString()}
                 </DropdownToggle>
                 <DropdownMenu right className="booking-dropdown-menu">
