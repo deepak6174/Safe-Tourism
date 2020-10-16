@@ -9,7 +9,7 @@ import {
   Input,
   Button
 } from "reactstrap";
-import pic1 from "../images/t.jpg";
+import pic1 from "../images/tt.jpg";
 import Table from "./table";
 
 export default props => {
@@ -268,7 +268,7 @@ export default props => {
   };
 
   return (
-    <div>
+    <div style={{backgroundImage:`URL(${pic1})`}}>
       <Row noGutters className="text-center align-items-center pizza-cta">
         <Col>
           <p className="looking-for-pizza">
